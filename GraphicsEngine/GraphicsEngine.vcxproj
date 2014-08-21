@@ -62,8 +62,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Simple-3D-Software-Render\Matrix.cpp" />
-    <ClCompile Include="..\..\..\Simple-3D-Software-Render\Vector.cpp" />
     <ClCompile Include="ajd_gbase.cpp" />
     <ClCompile Include="ajd_graphics.cpp" />
     <ClCompile Include="ajd_line.cpp" />
@@ -71,12 +69,10 @@
     <ClCompile Include="ajd_render.cpp" />
     <ClCompile Include="ajd_camera.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Simple-3D-Software-Render\Globals.h" />
-    <ClInclude Include="..\..\..\Simple-3D-Software-Render\Matrix.h" />
-    <ClInclude Include="..\..\..\Simple-3D-Software-Render\Utils.h" />
-    <ClInclude Include="..\..\..\Simple-3D-Software-Render\Vector.h" />
     <ClInclude Include="ajd_camera.h" />
     <ClInclude Include="ajd_gbase.h" />
     <ClInclude Include="ajd_gobject.h" />
@@ -84,6 +80,10 @@
     <ClInclude Include="ajd_line.h" />
     <ClInclude Include="ajd_poly.h" />
     <ClInclude Include="ajd_render.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

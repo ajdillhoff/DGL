@@ -1,6 +1,7 @@
 #include "Vector.h"
 #include "Utils.h"
 #include "Matrix.h"
+#include <math.h>
 
 const Vector4D ZeroVector(0,0,0,1);
 inline Vector4D::Vector4D(const Vector4D& other)
